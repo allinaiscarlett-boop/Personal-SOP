@@ -1,5 +1,5 @@
-const CACHE = 'chixx-growth-plan-v11';
-const FILES = ['./', './index.html', './styles.css?v=8', './app.js?v=11', './manifest.webmanifest', './favicon.svg', './icon-192.png', './icon-512.png', './og.png'];
+const CACHE = 'chixx-growth-plan-v12';
+const FILES = ['./', './index.html', './styles.css?v=8', './app.js?v=12', './manifest.webmanifest', './favicon.svg', './icon-192.png', './icon-512.png', './og.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)));

@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const START_KEY = '2026-10-12';
+  const START_KEY = '2026-10-19';
   const START_MONTH = START_KEY.slice(0, 7);
   const STORAGE_KEY = 'chixx-plan-records-v2-start-20260917';
   const TEMPLATES_KEY = 'chixx-plan-templates-v7';
@@ -524,7 +524,7 @@
       <div class="week-labels">${WEEKDAYS.map((day) => `<span>${day}</span>`).join('')}</div>
       <div class="calendar-grid">${calendar(records, checkedSet)}</div>
       <button class="today-button" data-action="go-home-day">${state.todayKey < START_KEY ? '前往开始日' : '回到今天'}</button>
-      <div class="calendar-tip">从2026年10月12日开始记录。黄色不是装饰，是你兑现承诺的进度；完成当天全部关键动作，才算兑现一天。</div>
+      <div class="calendar-tip">从2026年10月19日开始记录。黄色不是装饰，是你兑现承诺的进度；完成当天全部关键动作，才算兑现一天。</div>
     </section>`;
   }
 
